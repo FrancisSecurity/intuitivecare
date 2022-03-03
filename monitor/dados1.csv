@@ -1,0 +1,8 @@
+DATA_REGISTRO,APPLICACAO,STATUS,LATENCIA,DATA_COLETA
+2022-03-03 04:42:00,http://server-linux.4hard.com.br/,200,0.351231,2022-03-03 04:42:00
+2022-03-03 04:42:00,http://server-linux.4hard.com.br/app1/status/,200,0.27814,2022-03-03 04:42:00
+2022-03-03 04:47:00,http://server-linux.4hard.com.br/app1/status/,200,0.320347,2022-03-03 04:47:00
+2022-03-03 04:47:00,http://server-linux.4hard.com.br/app2/status/,200,0.358014,2022-03-03 04:47:00
+2022-03-03 04:48:00,http://server-linux.4hard.com.br/app1/status/,200,0.35018,2022-03-03 04:48:00
+2022-03-03 04:48:00,http://server-linux.4hard.com.br/app2/status/,502,10.552181,2022-03-03 04:48:00
+Erro ao Conectar no Servidor,2022-03-03 04:49:00
