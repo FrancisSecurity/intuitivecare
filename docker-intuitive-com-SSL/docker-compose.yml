@@ -1,0 +1,10 @@
+version: '3.4'
+
+services: 
+  certbot:
+     image: certbot/certbot:latest
+     command: certonly --webroot --webroot-path=/usr/share/nginx/html/letsencrypt --email fcamargo.fr@gmail.com --agree-tos --no-eff-email -d server-linux.4hard.com.br
+     volumes:
+       - ./certbot/conf/:/etc/letsencrypt
+       - ./certbot/logs/:/var/log/letsencrypt
+       - ./certbot/data:/usr/share/nginx/html/letsencrypt
