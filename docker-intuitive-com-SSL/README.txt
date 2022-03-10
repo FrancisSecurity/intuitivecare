@@ -1,4 +1,4 @@
-Para subir a stack usando certificado gerado pelo letsencript pela primeir vez deve subir a stack e depois executar o docker-compose para inicicar o contaner certbot que gera os certificados, esse container não fica em execução.
+Para subir a stack usando certificado gerado pelo letsencript pela primeira vez deve subir a stack e depois executar o docker-compose para inicicar o container certbot que gera os certificados, esse container não fica em execução.
 
 Ao subir a stack pela primeira vez deve ser criado a rede no formato overlay, pois é a rede do swarm, abaixo os passos
 
